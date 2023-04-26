@@ -90,34 +90,3 @@ exports.deleteProduct = async (req, res, next) => {
 // }
 
 
-// //post Payment
-// exports.postPayment = async (req, res, next) => {
-
-//     const { title, amount } = req.body
-//     const session = await stripe.checkout.sessions.create({
-
-//         payment_method_types: ['card'],
-//         line_items: [
-//             {
-//                 price_data: {
-
-//                     currency: "INR",
-//                     product_data: {
-
-//                         name: title,
-
-//                     },
-//                     unit_amount: amount * 100
-//                 },
-//                 quantity: 1,
-//             },
-//         ],
-//         mode: "payment",
-//         success_url: 'http://localhost:5000/sign-In',
-//         cancel_url: 'http://localhost:5000/html/cancle.html',
-
-//     })
-
-
-//     res.redirect(303, session.url);
-// }

@@ -1,6 +1,9 @@
 const path = require('path')
+const stripe = require('stripe')('sk_test_51MgLCXSDr4JMwduY2oavfpijCS8x40d4EXfh2tZxef7iVBIYvbWI681IbJ7mtP1eezbFYQxmrOVrgnb79prRMxmn009gbLMman')
+
 const User = require('../models/user_model')
 const Product = require('../models/product_model')
+const Order = require('../models/order_modal')
 
 
 
@@ -91,6 +94,99 @@ exports.postDeleteCartItem = (req, res, next) => {
       res.redirect('/cart');
     })
     .catch(err => console.log(err));
+}
+
+exports.postBilling = (req, res, next) => { 
+  user
+    .populate("cart.items.productId")
+    .then((user) => {
+      
+      const products = user.cart.items.map((i) => {
+        return { quantity: i.quantity, product: { ...i.productId._doc } };
+      });
+      console.log("🚀 ~ file: user_Controller.js:105 ~ products ~ products:", products)
+      res.render("product/billing", {
+        pagetitle: "Payment",
+        products : products
+      });
+    })
+}
+
+//post Payment
+exports.postPayment = async (req, res, next) => {
+
+    const { title, amount } = req.body
+    const session = await stripe.checkout.sessions.create({
+
+        
+        line_items: [
+            {
+                price_data: {
+
+                    currency: "INR",
+                    product_data: {
+
+                        name: title,
+
+                    },
+                    unit_amount: amount * 100
+                },
+                quantity: 1,
+            },
+        ],
+        mode: "payment",
+        success_url: 'http://localhost:5000/order',
+        cancel_url: 'http://localhost:5000/html/cart',
+
+    })
+
+
+  res.redirect(303, session.url);
+}
+
+exports.postOrder = (req, res, next) => { 
+  user
+    .populate("cart.items.productId")
+    .then((user) => {
+      
+      const products = user.cart.items.map((i) => {
+        return { quantity: i.quantity, product: { ...i.productId._doc } };
+      });
+      console.log(
+        "🚀 ~ file: user_Controller.js:104 ~ products ~ products:",
+        products
+      );
+      const order = new Order({
+        user: {
+          email: user.email,
+          userId: user,
+        },
+        products: products,
+      });
+      return order.save();
+    })
+    .then((result) => {
+      return user.clearCart();
+    })
+    .then(() => {
+      res.redirect("/orders");
+    })
+    .catch((err) => {
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      return next(error);
+    });
+    
+}
+
+exports.getOrder = (req, res, next) => { 
+   Order.find({ "user.userId": user._id }).then((orders) => {
+     console.log("🚀 ~ file: shop.js:142 ~ orders:", orders);
+     res.render("product/order", {
+       pagetitle: "Your Orders",
+       orders: orders,
+     });
+   });
 }
 
 
