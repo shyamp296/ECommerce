@@ -1,0 +1,64 @@
+<%- include('../includes/header.ejs') %>
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    </head>
+
+    <body>
+        <div class="loader"></div>
+        <div id="app">
+            <div class="main-wrapper main-wrapper-1">
+                <%- include('../includes/sidebar_nav.ejs') %>
+                    <!-- Main Content -->
+
+                    <div class="main-content">
+                        <section class="section">
+
+
+
+                                <div class="row">
+                                    <% if(product.length) {%>
+                                        <% for( let p of product){ %>
+                                            <div class="col-md-2 col-sm-6  mb-5">
+                                                <div class="product-grid">
+                                                    <div class="product-image">
+                                                        <form action="/productDetails" method="get">
+                                                            <input type="hidden" name="id" value="<%= p._id %>">
+                                                            <button class="p-image" type="submit"><img
+                                                                    src="/<%= p.product_image %>"></button>
+                                                        </form>
+
+                                                        <ul class="product-links">
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                        </ul>
+                                                        <form action="/cart" method="post">
+                                                            <input type="hidden" name="productId" value="<%= p._id %>">
+                                                            <button type="submit"
+                                                                class="add-to-cart btn btn-primary ">Add to
+                                                                Cart</button>
+                                                        </form>
+                                                    </div>
+                                                    <div class="product-content">
+                                                        <h3 class="title"><a href="#">
+                                                                <%= p.product_name%>
+                                                            </a></h3>
+                                                        <div class="price">$<%= p.price %>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <%} }else { %>
+
+                                                <h2> products will be added in very short time </h2>
+                                                <% } %>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <%- include('../includes/theme_converter.ejs') %>
+
+                    </div>
+                    <script src="assets/bundles/prism/prism.js"></script>
+
+                    <%- include('../includes/footer.ejs') %>

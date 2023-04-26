@@ -1,0 +1,349 @@
+[{
+  "_id": {
+    "$oid": "64197a80382ac9a258d284ab"
+  },
+  "product_name": "gsfgsd",
+  "price": "89",
+  "product_image": "uploads/img-3.jpg",
+  "product_description": "  hgzvhbjksfdghsfdkgsgb",
+  "quantity": "89",
+  "product_category": "male",
+  "product_type": "shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64197b28382ac9a258d284b3"
+  },
+  "product_name": "sdfsdfsdf",
+  "price": "98",
+  "product_image": "uploads/img-3.jpg",
+  "product_description": "  sdfsfsdffd",
+  "quantity": "89",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641981d6382ac9a258d284b8"
+  },
+  "product_name": "fdgdgs",
+  "price": "65",
+  "product_image": "uploads/img-3.jpg",
+  "product_description": "  dfgfdgfgsgsfdggfsgsf",
+  "quantity": "8956",
+  "product_category": "male",
+  "product_type": "shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641992f1c118898b206756d0"
+  },
+  "product_name": "xcvzvzc",
+  "price": "98",
+  "product_image": "uploads/1679397617917.jpg",
+  "product_description": "  xzcxzcxzjcjhzgcjkhxzcvzcxc",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ad90b249027e836ec6ad0"
+  },
+  "product_name": "jysdjfgjsd",
+  "price": "95",
+  "product_image": "uploads/1679481099573.jpg",
+  "product_description": "  dafsdfsfgsfdgfdgsfdgfdg",
+  "quantity": "988",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641adcb9249027e836ec6adb"
+  },
+  "product_name": "xcvxcvxcxcv",
+  "price": "45",
+  "product_image": "uploads/1679482041648.jpg",
+  "product_description": "  hgasgjgjfgiasjfbjksdafyghsd",
+  "quantity": "65",
+  "product_category": "male",
+  "product_type": "shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c256d3b250b7a8748f6c2"
+  },
+  "product_name": "hsfkihygfskiy",
+  "price": "965",
+  "product_image": "uploads/1679566189445.jpg",
+  "product_description": "  fiughjdhysdiugfisdhhfksdfyu",
+  "quantity": "600",
+  "product_category": "female",
+  "product_type": "Western Wear",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c26e0ccbeb25dfda6042d"
+  },
+  "product_name": "sdfsdfsdf",
+  "price": "65",
+  "product_image": "uploads/1679566560711.jpg",
+  "product_description": "  vsdfsdfsdf",
+  "quantity": "95",
+  "product_category": "female",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c280ddb3646da4c940c23"
+  },
+  "product_name": "fdshgfdhggfdh",
+  "price": "69",
+  "product_image": "uploads/1679566861378.jpg",
+  "product_description": "  iusdhfiushyioghjkdasyg",
+  "quantity": "100",
+  "product_category": "female",
+  "product_type": "Saree",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641caa8e522f1e5660e3d690"
+  },
+  "product_name": "Allen Solly Men's Regular Fit Polo",
+  "price": "2500",
+  "product_image": "uploads\\1679600270517.jpg",
+  "product_description": "Care Instructions: Machine Wash\r\nFit Type: Regular Fit\r\nOccasion : Casual\r\nFit : Regular Fit\r\nMaterial : 60% Cotton and 40% Polyester\r\nNeck : Polo Neck\r\nPattern : Solid",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641cabf3522f1e5660e3d6b7"
+  },
+  "product_name": "TURMS Men's Polo T-Shirt",
+  "price": "400",
+  "product_image": "uploads\\1679600627569.jpg",
+  "product_description": "  Care Instructions: Machine Wash\r\nFit Type: Tailored Fit\r\nCare Instructions: Simple hand/Machine Wash. Do not use fabric softener or bleach. Do not dry clean.\r\nAnti-Microbial - Resists the growth of mold on apparel\r\nAnti Odour: The casual shirt is enriched with silver ions to curb the growth of odour-causing bacteria which thrive on sweat. It will smell fresh even on constant use.\r\nFabric : 95% Premium Cotton 5%Spandex\r\nTailored Fit and Tailored Length",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5a556d8db0ca6cf6bb36"
+  },
+  "product_name": "Van Heusen Men's Regular Fit Polo Shirt ",
+  "price": "500",
+  "product_image": "uploads/1679645269806.jpg",
+  "product_description": "\r\n    Care Instructions: Machine Wash\r\n    Fit Type: Regular Fit\r\n    Occasion : Leisure Sport\r\n    Pattern : Solid\r\n    Fit :Regular Fit\r\n    Material: 60%Cotton40%Polyester\r\n    Sleeves : Half Sleeves\r\n",
+  "quantity": "90",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5ab46d8db0ca6cf6bb3b"
+  },
+  "product_name": "London Men's Half Sleeve Sports T-Shirt",
+  "price": "600",
+  "product_image": "uploads/1679645364857.jpg",
+  "product_description": "  \r\n    Care Instructions: Machine Wash\r\n    Fit Type: Slim Fit\r\n    Fabric Type: Polyester\r\n    Neck Style: Round Neck; Occasion : Sports\r\n    Sleeve Type: Half Sleeve\r\n    Suitable for Gym, Workout, Running, Jogging, Cricket, Yoga, Night wear, Sportswear other outdoor activities.\r\n    Collar Style: Round Collar; Fit Type: Slim Fit\r\n",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5b7d7563a7027e3092ba"
+  },
+  "product_name": "Symbol Men's Regular Polo Shirt ",
+  "price": "100",
+  "product_image": "uploads/1679645565874.jpg",
+  "product_description": "  \r\n    Care Instructions: Machine wash cold with similar colors, gentle cycle, only non-chlorine bleach (when needed), tumble dry low, warm iron if needed, do not iron on print\r\n    Fit Type: Regular Fit\r\n    Care Instructions: Machine Wash\r\n    Fit Type: Regular Fit\r\n    Material - 60% Cotton and 40% Polyester\r\n    Half sleeve Polo T-Shirt\r\n    Pattern - Solid\r\n    Polo with classic collar\r\n",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5bf77563a7027e3092bf"
+  },
+  "product_name": "Men's Regular Fit Collar Tshirt ",
+  "price": "300",
+  "product_image": "uploads/1679645687122.jpg",
+  "product_description": "  \r\n    Care Instructions: Hand Wash Only\r\n    Fit Type: Regular Fit\r\n    Care Instructions: Machine Wash\r\n    Fit Type: Regular Fit\r\n    Material - 60% Cotton and 40% Polyester\r\n    Half sleeve Polo T-Shirt\r\n    Pattern - Solid\r\n    Polo with classic collar\r\n",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5c487563a7027e3092c4"
+  },
+  "product_name": "EYEBOGLER Round Neck T Shirt for Men ",
+  "price": "500",
+  "product_image": "uploads/1679645768765.jpg",
+  "product_description": "  \r\n    Care Instructions: Machine Wash\r\n    Fit Type: Regular Fit\r\n    Unique Design with Excellent durable fabric\r\n    Soft flow dyed 60% Cotton, 40% Polyester Fabric\r\n    Fabric GSM is 180\r\n    Machine wash Cold\r\n    Regular Fit and dimensionally accurate size\r\n",
+  "quantity": "200",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5d1a7563a7027e3092cb"
+  },
+  "product_name": "Tfortees Black Cotton Printed Tshirt ",
+  "price": "600",
+  "product_image": "uploads/1679645978411.jpg",
+  "product_description": "  \r\n    Care Instructions: Machine Wash\r\n    Fit Type: Oversized Fit\r\n    Fabric - Cotton\r\n    Size-S/M/L/XL\r\n    Trend - Oversized Tshirt\r\n    Printed\r\n    Disclaimer- Product color may sligh vary due to photographic light souce.\r\n",
+  "quantity": "298",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5dd67563a7027e3092d0"
+  },
+  "product_name": " Regular Fit Plain Solid Polo Neck T-Shirts",
+  "price": "500",
+  "product_image": "uploads/1679646166822.jpg",
+  "product_description": "   These shirts are a popular choice for casual wear and can be dressed up or down depending on the occasion.\r\nThese shirts are often made from soft, breathable fabrics like cotton, polyester, or a blend of the two.\r\nThe collar on a collar neck t-shirt is generally less high and close-fitting than a polo neck t-shirt, making it more comfortable to wear.\r\nMany collar neck t-shirts have a ribbed texture, which adds stretch and flexibility to the collar.\r\nThey are often available in a range of colors and styles, from classic solid colors to bold, graphic prints",
+  "quantity": "90",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d5f2b7563a7027e3092d5"
+  },
+  "product_name": "EYEBOGLER Men's Regular Fit T-Shirt ",
+  "price": "600",
+  "product_image": "uploads/1679646507024.jpg",
+  "product_description": "  \r\n\r\n    Product Dimensions ‏ : ‎ 25 x 20 x 4.5 cm; 500 Grams\r\n    Date First Available ‏ : ‎ 15 March 2022\r\n    Manufacturer ‏ : ‎ Seven Rocks International\r\n    ASIN ‏ : ‎ B09VLBS961\r\n    Item model number ‏ : ‎ T430HS\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n    Manufacturer ‏ : ‎ Seven Rocks International, Seven Rocks International,#207, Industrial Area-A, Cheema Chowk, Ludhiana-141003\r\n    Packer ‏ : ‎ Seven Rocks International, #207, Industrial Area-A, Cheema Chowk, Ludhiana-141003\r\n    Item Weight ‏ : ‎ 500 g\r\n    Item Dimensions LxWxH ‏ : ‎ 25 x 20 x 4.5 Centimeters\r\n    Generic Name ‏ : ‎ T-Shirt\r\n\r\n",
+  "quantity": "90",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d605f7563a7027e3092dc"
+  },
+  "product_name": "Men Self Design Polo Neck T-Shirt",
+  "price": "400",
+  "product_image": "uploads/1679646815521.jpg",
+  "product_description": "  \r\n\r\n    Date First Available ‏ : ‎ 11 March 2023\r\n    ASIN ‏ : ‎ B0BY4XXD6J\r\n    Item part number ‏ : ‎ M-46536\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n\r\n",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d60aa7563a7027e3092e1"
+  },
+  "product_name": "Polo Neck Collar Half Sleeve T-Shirt ",
+  "price": "800",
+  "product_image": "uploads/1679646890255.jpg",
+  "product_description": "\r\n\r\n    Product Dimensions ‏ : ‎ 25 x 20 x 3 cm\r\n    Date First Available ‏ : ‎ 11 March 2023\r\n    Manufacturer ‏ : ‎ Cuscart\r\n    ASIN ‏ : ‎ B0BY4W73SQ\r\n    Item part number ‏ : ‎ 1\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n    Manufacturer ‏ : ‎ Cuscart\r\n    Item Dimensions LxWxH ‏ : ‎ 25 x 20 x 3 Centimeters\r\n    Net Quantity ‏ : ‎ 1.00 count\r\n    Generic Name ‏ : ‎ T-Shirt\r\n\r\n  ",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d612f7563a7027e3092e6"
+  },
+  "product_name": "Messi 30 Away Football Jersey",
+  "price": "800",
+  "product_image": "uploads/1679647023773.jpg",
+  "product_description": "   Package Dimensions ‏ : ‎ 30 x 25 x 1 cm; 150 Grams\r\nDate First Available ‏ : ‎ 2 March 2023\r\nManufacturer ‏ : ‎ uniq clothings\r\nASIN ‏ : ‎ B0BX9TQ2MH\r\nItem part number ‏ : ‎ uniq-160\r\nCountry of Origin ‏ : ‎ India\r\nDepartment ‏ : ‎ Men\r\nManufacturer ‏ : ‎ uniq clothings\r\nItem Weight ‏ : ‎ 150 g ",
+  "quantity": "200",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d680847fa6fa51fe4fc1c"
+  },
+  "product_name": "Mens Color-Block Cotton Tshirt ",
+  "price": "500",
+  "product_image": "uploads/1679648776978.jpg",
+  "product_description": "  \r\n\r\n    Product Dimensions ‏ : ‎ 32 x 25 x 1 cm; 250 Grams\r\n    Date First Available ‏ : ‎ 20 January 2023\r\n    Manufacturer ‏ : ‎ Sathyam textiles , 1st street , vkr thottam , bss road, tirupur -641629\r\n    ASIN ‏ : ‎ B0BSQRLM2P\r\n    Item part number ‏ : ‎ HLDHS131DBR\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n    Manufacturer ‏ : ‎ Sathyam textiles , 1st street , vkr thottam , bss road, tirupur -641629\r\n    Item Weight ‏ : ‎ 250 g\r\n    Item Dimensions LxWxH ‏ : ‎ 32 x 25 x 1 Centimeters\r\n\r\n",
+  "quantity": "100",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d685247fa6fa51fe4fc2b"
+  },
+  "product_name": "AELOMART Men's T Shirt",
+  "price": "500",
+  "product_image": "uploads/1679648850203.jpg",
+  "product_description": "   Create a lasting impression in this Regular Fit Men’s T-Shirt. Crafted in Premium, Bio-washed 100% Cotton, which is breathable, comfortable, skin friendly, odourless and all natural.\r\nThis T-shirt has Checkered pattern, has half sleeve and a round collar which is stretchy and durable and is definitely a must-have in your wardrobe.\r\nCare Instruction : Machine wash with similar colours ",
+  "quantity": "200",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d689747fa6fa51fe4fc3a"
+  },
+  "product_name": "Dixcy Scott Men's Regular Fit T-Shirt ",
+  "price": "300",
+  "product_image": "uploads/1679648919016.jpg",
+  "product_description": "  \r\n\r\n    Product Dimensions ‏ : ‎ 16 x 12 x 2 cm; 200 Grams\r\n    Date First Available ‏ : ‎ 23 March 2021\r\n    Manufacturer ‏ : ‎ Dixcy Scott\r\n    ASIN ‏ : ‎ B08ZRQS25L\r\n    Item model number ‏ : ‎ M005-SNAZZYTEE-P1\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n    Manufacturer ‏ : ‎ Dixcy Scott, Dixcy Textiles Pvt Ltd · Dixcy campus, D. No. 10/5-N, Maniosai Nagar, · Poosaripalayam, Chengapalli, · Tirupur – 638 812\r\n    Packer ‏ : ‎ Dixcy Textiles Pvt Ltd · Dixcy campus, D. No. 10/5-N, Maniosai Nagar, · Poosaripalayam, Chengapalli, · Tirupur – 638 812\r\n    Item Weight ‏ : ‎ 200 g\r\n    Item Dimensions LxWxH ‏ : ‎ 16 x 12 x 2 Centimeters\r\n    Generic Name ‏ : ‎ T-Shirt\r\n\r\n",
+  "quantity": "300",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d68ce47fa6fa51fe4fc49"
+  },
+  "product_name": "The Boys Dry fit T-Shirts for Men ",
+  "price": "400",
+  "product_image": "uploads/1679648974059.jpg",
+  "product_description": "  \r\n\r\n    Product Dimensions ‏ : ‎ 16 x 12 x 2 cm; 200 Grams\r\n    Date First Available ‏ : ‎ 23 March 2021\r\n    Manufacturer ‏ : ‎ Dixcy Scott\r\n    ASIN ‏ : ‎ B08ZRQS25L\r\n    Item model number ‏ : ‎ M005-SNAZZYTEE-P1\r\n    Country of Origin ‏ : ‎ India\r\n    Department ‏ : ‎ Men\r\n    Manufacturer ‏ : ‎ Dixcy Scott, Dixcy Textiles Pvt Ltd · Dixcy campus, D. No. 10/5-N, Maniosai Nagar, · Poosaripalayam, Chengapalli, · Tirupur – 638 812\r\n    Packer ‏ : ‎ Dixcy Textiles Pvt Ltd · Dixcy campus, D. No. 10/5-N, Maniosai Nagar, · Poosaripalayam, Chengapalli, · Tirupur – 638 812\r\n    Item Weight ‏ : ‎ 200 g\r\n    Item Dimensions LxWxH ‏ : ‎ 16 x 12 x 2 Centimeters\r\n    Generic Name ‏ : ‎ T-Shirt\r\n\r\n",
+  "quantity": "300",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d692947fa6fa51fe4fc58"
+  },
+  "product_name": "Men's Printed Navy Blue Stylish T-Shirt ",
+  "price": "600",
+  "product_image": "uploads/1679649065010.jpg",
+  "product_description": "   Date First Available ‏ : ‎ 14 February 2023\r\nManufacturer ‏ : ‎ TOPLOT\r\nASIN ‏ : ‎ B0BVR67WRZ\r\nItem model number ‏ : ‎ Mens-T-shirt-5056-S\r\nCountry of Origin ‏ : ‎ India\r\nDepartment ‏ : ‎ Men\r\nManufacturer ‏ : ‎ TOPLOT, TOPLOT - SURAT\r\nPacker ‏ : ‎ TOPLOT - SURAT\r\nImporter ‏ : ‎ TOPLOT - SURAT\r\nItem Weight ‏ : ‎ 100 g\r\nItem Dimensions LxWxH ‏ : ‎ 20 x 20 x 2 Centimeters ",
+  "quantity": "300",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d696b47fa6fa51fe4fc67"
+  },
+  "product_name": "TOPLOT T-Shirt for Men",
+  "price": "300",
+  "product_image": "uploads/1679649131920.jpg",
+  "product_description": "   Product Dimensions ‏ : ‎ 20 x 20 x 2 cm; 100 Grams\r\nDate First Available ‏ : ‎ 14 February 2023\r\nManufacturer ‏ : ‎ TOPLOT\r\nASIN ‏ : ‎ B0BVR67WRZ\r\nItem model number ‏ : ‎ Mens-T-shirt-5056-S\r\nCountry of Origin ‏ : ‎ India\r\nDepartment ‏ : ‎ Men\r\nManufacturer ‏ : ‎ TOPLOT, TOPLOT - SURAT\r\nPacker ‏ : ‎ TOPLOT - SURAT\r\nImporter ‏ : ‎ TOPLOT - SURAT\r\nItem Weight ‏ : ‎ 100 g\r\nItem Dimensions LxWxH ‏ : ‎ 20 x 20 x 2 Centimeters ",
+  "quantity": "30",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d69ef47fa6fa51fe4fc76"
+  },
+  "product_name": "ALNIK Cool & Stylish Men's Round Neck T-shirt",
+  "price": "200",
+  "product_image": "uploads/1679649263481.jpg",
+  "product_description": "   Classic round neckline design for versatility, Short sleeves for a casual and relaxed look. Stay Stylish and versatile with this classic and timeless design t-shirts suitable for any occasion.\r\nRegular fit for a comfortable and relaxed feel, Lightweight and breathable for all-day comfort- Perfect for casual wear or sports activities, work attire, or a day on the golf course.\r\nClosure Type: Pull On; Neck Style: Round Neck; Sleeve Type: Short Sleeve ",
+  "quantity": "300",
+  "product_category": "male",
+  "product_type": "t-shirt",
+  "__v": 0
+}]

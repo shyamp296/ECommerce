@@ -1,0 +1,103 @@
+<%- include('includes/header.ejs') %>
+
+    <div class="loader"></div>
+    <div id="app">
+        <section class="section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div
+                        class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
+                        <div class="card card-primary">
+                            <div class="card-header">
+                                <h4>Register</h4>
+                            </div>
+                            <div class="card-body">
+                                <form method="post" action="/registration" class="needs-validation" name="registration"
+                                     novalidate>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="frist_name">UserName</label>
+                                            <input id="frist_name" type="text" class="form-control" name="username"
+                                                required autofocus>
+
+                                            <div class="invalid-feedback">
+                                                Please choose a valid username
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-6">
+                                            <label for="role">Select role</label>
+                                            <select id="role" class="form-control select2"  name="role"
+                                                required aria-placeholder="Select role">
+                                                <option value=""  selected disabled hidden>please select role</option>
+                                                <option value="1" >Admin</option>
+                                                <option value="2">Customer</option>
+
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Please select the role
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input id="email" type="email" class="form-control" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Please choose a valid email
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="password" class="d-block">Password</label>
+                                            <input id="password" type="password" class="form-control pwstrength"
+                                                data-indicator="pwindicator" name="psw" minlength="6" required>
+
+                                            <div class="invalid-feedback">
+                                                password is not valid
+                                            </div>
+                                            <div id="pwindicator" class="pwindicator">
+                                                <div class="bar"></div>
+                                                <div class="label"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-6">
+                                            <label for="password2" class="d-block">Password Confirmation</label>
+                                            <input id="password2" type="password" class="form-control"
+                                                name="cpsw" minlength="6" required>
+                                            <div class="invalid-feedback">
+                                                comfirm password is not valid
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" name="agree" class="custom-control-input" id="agree"
+                                                required>
+                                            <label class="custom-control-label" for="agree">I agree with the terms and
+                                                conditions</label>
+                                            <div class="invalid-feedback">
+                                                please agree to the terms and conditions
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                                            Register
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="mb-4 text-muted text-center">
+                                Already Registered? <a href="/sign-In">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <%- include('includes/footer.ejs') %>

@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "6412a7feb93c380d442ec031"
+  },
+  "username": "shyam",
+  "email": "shyamdadhaniya29@gmail.com",
+  "Password": "$2b$12$UHleziSI8Fg45WbZNdKVBeFZ7MY14djpxjg17Cb.mgg9nusWQGVM.",
+  "role": "1",
+  "__v": 5,
+  "cart": {
+    "items": [
+      {
+        "productId": {
+          "$oid": "641992f1c118898b206756d0"
+        },
+        "quantity": 3,
+        "price": 294,
+        "_id": {
+          "$oid": "641d641647fa6fa51fe4fb88"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "64197b28382ac9a258d284b3"
+        },
+        "quantity": 2,
+        "price": 196,
+        "_id": {
+          "$oid": "641d643d47fa6fa51fe4fbaf"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641ad90b249027e836ec6ad0"
+        },
+        "quantity": 2,
+        "price": 190,
+        "_id": {
+          "$oid": "641d644447fa6fa51fe4fbc2"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641adcb9249027e836ec6adb"
+        },
+        "quantity": 1,
+        "price": 45,
+        "_id": {
+          "$oid": "641d644647fa6fa51fe4fbce"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641cabf3522f1e5660e3d6b7"
+        },
+        "quantity": 2,
+        "price": 800,
+        "_id": {
+          "$oid": "641d644847fa6fa51fe4fbdc"
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6412e9f4c50759ba3ca022f3"
+  },
+  "username": "ggbsfdgfdg",
+  "email": "fdhgsjkhfk@djkhkh.cdm",
+  "Password": "$2b$12$orPl/XNUgPW0L.ePiB/WWeKsJqr.eBzZqxLP2woSZSU7iZfJdrIba",
+  "role": "2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c3c93a6bab0ea3ad1a935"
+  },
+  "username": "shyam2",
+  "email": "sdgfhsgfs@fdjhsgf.com",
+  "Password": "$2b$12$54TDOgjqRnlcngGvFKF/Y.dkiL9bybzyNUBbFNKbdVjnBurYR2xQu",
+  "role": "2",
+  "cart": {
+    "items": [
+      {
+        "productId": {
+          "$oid": "641ad90b249027e836ec6ad0"
+        },
+        "quantity": 4,
+        "price": 380,
+        "_id": {
+          "$oid": "641d4c086d8db0ca6cf6ba90"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641992f1c118898b206756d0"
+        },
+        "quantity": 1,
+        "price": 98,
+        "_id": {
+          "$oid": "641d4c106d8db0ca6cf6baa5"
+        }
+      }
+    ]
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "6419ed49c4a1bbbf30cd7d15"
+  },
+  "username": "admin",
+  "email": "shyamdadhaniya29@gmail.com",
+  "Password": "$2b$12$9.ScO1sqzTxiEtJOwMLNjeD8QxR3KIMK70FEkihIXYCQ09gZ7ar7e",
+  "role": "1",
+  "__v": 13,
+  "cart": {
+    "items": [
+      {
+        "productId": {
+          "$oid": "64197b28382ac9a258d284b3"
+        },
+        "quantity": 3,
+        "price": 294,
+        "_id": {
+          "$oid": "641ca70f522f1e5660e3d4c6"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "64197a80382ac9a258d284ab"
+        },
+        "quantity": 2,
+        "price": 178,
+        "_id": {
+          "$oid": "641ca715522f1e5660e3d4ce"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641c256d3b250b7a8748f6c2"
+        },
+        "quantity": 3,
+        "price": 2895,
+        "_id": {
+          "$oid": "641ca718522f1e5660e3d4d8"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641992f1c118898b206756d0"
+        },
+        "quantity": 1,
+        "price": 98,
+        "_id": {
+          "$oid": "641ca781522f1e5660e3d54d"
+        }
+      },
+      {
+        "productId": {
+          "$oid": "641ad90b249027e836ec6ad0"
+        },
+        "quantity": 2,
+        "price": 190,
+        "_id": {
+          "$oid": "641ca870522f1e5660e3d5d3"
+        }
+      }
+    ]
+  }
+}]

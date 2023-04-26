@@ -1,0 +1,176 @@
+<%- include('../includes/header.ejs') %>
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+    <body>
+        <div class="loader"></div>
+        <div id="app">
+            <div class="main-wrapper main-wrapper-1">
+                <%- include('../includes/sidebar_nav.ejs') %>
+                    <!-- Main Content -->
+
+                    <div class="main-content">
+                        <section class="section">
+
+                         
+
+                            <div class="section-body">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModalCenter">
+                                    Add New Product
+                                </button>
+                                <div class="row">
+                                    <% if(product.length) {%>
+                                        <% for( let p of product){ %>
+                                        <div class="col-md-2 col-sm-6  mb-5">
+                                            <div class="product-grid">
+                                                <div class="product-image">
+                                                    <form action="/productDetails" method="get">
+                                                        <input type="hidden" name="id" value="<%= p._id %>">
+                                                        <button class="p-image" type="submit"><img src="/<%= p.product_image %>"></button>
+                                                    </form>
+                                                    
+                                                    <ul class="product-links">
+                                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    </ul>
+                                                    <form action="/cart" method="post">
+                                                        <input type="hidden" name="productId" value="<%= p._id %>"> 
+                                                    <button  type="submit" class="add-to-cart btn btn-primary ">Add to Cart</button>
+                                                </form>
+                                                </div>
+                                                <div class="product-content">
+                                                    <h3 class="title"><a href="#"><%= p.product_name%></a></h3>
+                                                    <div class="price"> ₹ <%= p.price %></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <%} } %>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <!--  -->
+
+
+                        <!-- MODAL SECTION -->
+
+                        <!-- Modal with form -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Add Product</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form name="registration" action="/add-product" class="needs-validation"
+                                            method="post" enctype="multipart/form-data">
+
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " name="product_name"
+                                                    id="exampleInputUsername1" required
+                                                    placeholder="Enter Product name">
+                                                <div class="invalid-feedback">
+                                                    Please enter a product name
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="price"
+                                                    placeholder="Enter Price " required>
+
+
+                                                <div class="invalid-feedback">
+                                                    Please enter a product price
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class=" has-validation">
+                                                    <label for="fileupload" class="mb-3"> Please upload your
+                                                        image</label>
+                                                    <input type="file" name="image" class="form-control "
+                                                        id="fileupload" placeholder="Uplaod your file here" required>
+                                                    <div class="invalid-feedback">
+                                                        Please Uplaod Product image here
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="form-group">
+
+                                                <select id="product_category" class="form-control"
+                                                    name="product_category" required>
+                                                    <option value="" selected>select category</option>
+
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    Please select category
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group">
+
+                                                <select id="type" class="form-control" name="product_type" required
+                                                    aria-placeholder="Select category">
+                                                    <option value="" selected>select type</option>
+
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    Please select Product type
+                                                </div>
+
+                                            </div>
+
+
+
+
+                                            <div class="form-group">
+                                                <input type="number" name="quantity" class="form-control"
+                                                    id="exampleInputPassword1" placeholder="Enter quantity">
+                                                <div class="invalid-feedback">
+                                                    Please enter product quantity
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="description"> Product Description</label>
+                                                <textarea name="product_description" class="form-control"
+                                                    id="exampleInputPassword1">  </textarea>
+                                                <div class="invalid-feedback">
+                                                    Please enter product quantity
+                                                </div>
+                                            </div>
+
+                                            <div class="mr-4">
+                                                <button type="submit" class="btn btn-primary centered">Add
+                                                    Product</button>
+                                            </div>
+                                        </form>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal with form end -->
+
+
+
+                        <%- include('../includes/theme_converter.ejs') %>
+
+                    </div>
+                    <script src="assets/bundles/prism/prism.js"></script>
+
+                    <%- include('../includes/footer.ejs') %>
