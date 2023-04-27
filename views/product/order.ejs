@@ -1,6 +1,6 @@
 <%- include('../includes/header.ejs') %>
-    <link rel="stylesheet" href="assets/css/custom.css">
 
+    <link rel="stylesheet" href="assets/css/order.css">
     </head>
 
     <body>
@@ -13,59 +13,41 @@
                     <div class="main-content">
                         <section class="section">
                             <div class="section-body">
-                               
-                                <section class="h-100" style="background-color: #eee;">
-                                    <div class="container h-100 py-5">
-                                        <div class="row d-flex justify-content-center align-items-center h-100">
-                                            <div class="col-10">
-                                
-                                                <div class="d-flex justify-content-between align-items-center mb-4">
-                                                    <h3 class="fw-normal mb-0 text-black">Your Order</h3>
-                                                  
-                                                </div>
-                                                <% if(orders) { %>
-                                                    <% for(var o of orders) { %> 
-                                                        <div class="card rounded-3 mb-4">
-                                                            <div class="card-body p-4">
-                                                                <div class="row d-flex justify-content-between align-items-center">
-                                                                    <div class="col-md-2 col-lg-2 col-xl-2">
-                                                                        <img src="<%=o.product.product_image%>"
-                                                                            class="img-fluid rounded-3" alt="Cotton T-shirt">
-                                                                    </div>
-                                                                    <div class="col-md-3 col-lg-3 col-xl-3">
-                                                                        <p class="lead fw-normal mb-2"><%=o.product.product_name%> </p>
-                                                                        
-                                                                    </div>
-                                                                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                                                        <h5 class="mb-0"><%= p.price %> </h5>
-                                                                    </div>
-                                                                    <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                                        <form action="" method="post">
-                                                                            <input type="hidden" name="productId" value="<%= p._id %> ">
-                                                                        <button type="submit"
-                                                                        class="btn btn-icon icon-left btn-danger"
-                                                                        onclick="javascript:form.action='/deletecartProduct'"><i
-                                                                            class="fa fa-trash"></i></button>
-                                                                        </form>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    <% } }%>  
-                                
-                                               
-                                
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <button type="button" class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+                                <div class="panel panel-default panel-order">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-1"><img src="https://bootdey.com/img/Content/user_3.jpg"
+                                                    class="media-object img-thumbnail" /></div>
+                                            <div class="col-md-11">
+                                                 <% if (orders.length <=0) { %>
+                                    <h1>No past order!</h1>
+                                    <% } else { %>
+                                        <ul class="orders">
+                                            <% orders.forEach(order=> { %>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <span><strong>Order name</strong></span> <span
+                                                            class="label label-info">- # <%= order._id %> -</span><br />
+                                                        total-Price : <%= order.totalprice %> <br />
+                                                        <a data-placement="top"
+                                                            class="btn btn-success btn-xs glyphicon glyphicon-ok"
+                                                            href="#" title="View"></a>
+                                                        <a data-placement="top"
+                                                            class="btn btn-danger btn-xs glyphicon glyphicon-trash"
+                                                            href="#" title="Danger"></a>
+                                                        <a data-placement="top"
+                                                            class="btn btn-info btn-xs glyphicon glyphicon-usd" href="#"
+                                                            title="Danger"></a>
                                                     </div>
+                                                    <div class="col-md-12">Order made on: <%= order.oderedOn%></div>
                                                 </div>
-                                
+                                                    <% }) %>
+                                        <% } %>
                                             </div>
                                         </div>
+
                                     </div>
-                                </section>
-                            </div>
+                                </div>
 
 
 

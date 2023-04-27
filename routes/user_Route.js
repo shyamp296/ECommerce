@@ -22,8 +22,9 @@ router.post('/deletecartProduct', auth, userController.postDeleteCartItem);
 router.post('/viewMore', roler, userController.viewMore);
 router.post("/billing", auth, userController.postBilling);
 router.post('/payment', auth, userController.postPayment);
-router.post("/order", auth, userController.postOrder);
+router.get("/order", auth, userController.postOrder);
 
+router.get("/orders", auth, userController.getOrder);
 
 
 

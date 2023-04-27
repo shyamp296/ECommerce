@@ -1,0 +1,46 @@
+<%- include('../includes/header.ejs') %>
+
+
+    </head>
+
+    <body>
+        <div class="loader"></div>
+        <div id="app">
+            <div class="main-wrapper main-wrapper-1">
+                <%- include('../includes/sidebar_nav.ejs') %>
+                    <!-- Main Content -->
+
+                    <div class="main-content">
+                        <section class="section">
+                            <div class="section-body">
+                                <% if (orders.length <=0) { %>
+                                    <h1>Nothing there!</h1>
+                                    <% } else { %>
+                                        <ul class="orders">
+                                            <% orders.forEach(order=> { %>
+                                                <li class="orders__item">
+                                                    <h1>Order - # <%= order._id %> - <a
+                                                                href="/orders/<%= order._id %>">Invoice</a></h1>
+                                                    <ul class="orders__products">
+                                                        <% order.products.forEach(p=> { %>
+                                                            <li class="orders__products-item">
+                                                                <%= p.product.product_name %> (<%= p.quantity %>)
+                                                            </li>
+                                                            <% }); %>
+                                                    </ul>
+                                                </li>
+                                                <% }); %>
+                                        </ul>
+                                        <% } %>
+
+                            </div>
+
+
+
+                        </section>
+                        <%- include('../includes/theme_converter.ejs') %>
+
+                    </div>
+                    <script src="assets/bundles/prism/prism.js"></script>
+
+                    <%- include('../includes/footer.ejs') %>
